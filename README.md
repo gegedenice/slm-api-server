@@ -1,4 +1,4 @@
-# slm-api-server
+# slm-llamacpp-api-server
 
 Flask API autour de [`llama-cpp-python`](https://github.com/abetlen/llama-cpp-python) avec :
 
@@ -17,7 +17,7 @@ Flask API autour de [`llama-cpp-python`](https://github.com/abetlen/llama-cpp-py
 ### 1. Cloner le dépôt
 
 ```bash
-git clone https://github.com/you/slm-api-server.git
+git clone https://github.com/you/slm-llamacpp-api-server.git
 cd slm-api-server
 ```
 
