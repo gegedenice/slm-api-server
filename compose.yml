@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  api:
+    build: .
+    env_file: .env
+    ports:
+      - "${PORT:-8000}:8000"
+    volumes:
+      - ./models:${MODELS_DIR:-/models}
+      - ./hf_cache:${HF_HOME:-/hf_cache}
+    restart: unless-stopped
